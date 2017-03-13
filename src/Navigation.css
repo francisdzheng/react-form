@@ -1,0 +1,10 @@
+.navigation {
+  box-sizing: border-box;
+  height: 54px;
+  width: 100%;
+  background: black; }
+  .navigation .navigation__logo {
+    margin-top: 2.7px;
+    height: 48.6px; }
+  .navigation.navigation--open {
+    height: 100%; }

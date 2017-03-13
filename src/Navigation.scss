@@ -1,0 +1,17 @@
+$s__navigation: 54px;
+
+.navigation {
+  box-sizing: border-box;
+  height: $s__navigation;
+  width: 100%;
+  background: black;
+
+  .navigation__logo {
+    margin-top: $s__navigation * 0.05;
+    height: $s__navigation * 0.9;
+  }
+
+  &.navigation--open {
+    height: 100%;
+  }
+}
