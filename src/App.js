@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Navigation from './Navigation';
 import Form from './Form';
+
 import './App.css';
 
 class App extends Component {
@@ -8,6 +9,7 @@ class App extends Component {
     return (
       <div className="App">
         <Navigation />
+        <h1>a react form</h1>
         <Form />
       </div>
     );

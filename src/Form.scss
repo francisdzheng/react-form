@@ -1,0 +1,20 @@
+.main {
+  button {
+    margin-top: 15px;
+    padding: 1rem 36px;
+    text-transform: lowercase;
+    background: white;
+    border-color: #38618C;
+    border-radius: 3px;
+    color: #38618C;
+    text-decoration: none;
+    font-size: 20px;
+    transition-duration: 0.3s;
+    transform-origin: 0 100%;
+
+    &:hover {
+      cursor: pointer;
+      transform: skew(-10deg);
+    }
+  }
+}
